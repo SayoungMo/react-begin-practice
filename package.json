@@ -1,0 +1,37 @@
+{
+  "name": "react-begin-1st",
+  "version": "1.0.0",
+  "description": "1st react项目",
+  "main": "webpack.config.dev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --config webpack.config.dev.js --port 6008 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fay875736693/react-begin-practice.git"
+  },
+  "keywords": [
+    "react",
+    "beginner"
+  ],
+  "author": "Sayoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fay875736693/react-begin-practice/issues"
+  },
+  "homepage": "https://github.com/Fay875736693/react-begin-practice#readme",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
